@@ -9,7 +9,7 @@ const Ref = () => {
         const newObject = {
             name: nameRef.current.value,
             username: usernameRef.current.value,
-            email: emailRef.current.value,
+            email: emailRef.current.value
         };
         console.log(newObject);
     };
